@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<img alt="Vue logo" src="./assets/logo.png">-->
+    <img alt="Marvel logo" src="https://fandomwire.com/wp-content/uploads/2018/07/Marvel-Logo-14.jpg" width="600" height="200"/>
+    <!--HelloWorld msg="Welcome to Your Vue.js App"/-->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -11,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    //HelloWorld
   }
 }
 </script>
